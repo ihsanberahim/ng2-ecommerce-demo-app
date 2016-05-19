@@ -1,0 +1,21 @@
+<div class="product-card">
+	<div class="product-picture">
+		<h4>{{product.title}}
+		</h4>
+	</div>
+	<div class="add-to-cart" (click)="doCountUp()">
+		<div class="count">{{count}}</div>
+		<div class="icon">
+		</div>
+	</div>
+	<div class="product-info">
+		<p>
+			<strong>{{product.currency}}{{product.final_price}}
+			</strong>&nbsp;
+			<small class="slash-text">{{product.currency}}{{product.price}}
+			</small>
+		</p>
+		<p>{{product.description}}
+		</p>
+	</div>
+</div>

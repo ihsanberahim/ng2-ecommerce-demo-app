@@ -1,0 +1,9 @@
+body{
+	font-family: sans-serif;
+}
+small{
+	font-size: 80%;
+}
+.slash-text{
+	text-decoration: line-through;
+}
